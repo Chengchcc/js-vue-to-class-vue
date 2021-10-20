@@ -1,0 +1,36 @@
+{
+  "name": "js-vue-class-vue",
+  "version": "1.0.0",
+  "bin": "bin/cli.js",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.2.20",
+    "fast-glob": "^3.2.7",
+    "fs-extra": "9",
+    "minimist": "^1.2.5",
+    "ts-morph": "^12.0.0",
+    "typescript": "^4.4.4",
+    "vue-sfc-descriptor-to-string": "^1.0.0"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "rimraf lib && tsc"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-typescript": "^7.15.4",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/minimist": "^1.2.2",
+    "@types/node": "^16.11.1",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "@vue/babel-preset-app": "^4.5.13",
+    "babel-plugin-generator-prettier": "^1.2.0",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.3.0"
+  }
+}
